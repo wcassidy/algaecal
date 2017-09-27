@@ -1,0 +1,260 @@
+$image_file_path: "assets/images/";
+
+/*
+Theme Name: AlgaeCal
+Author: Wayne Cassidy
+Description: Simple theme used to host the AlgaeCal product page.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: AlgaeCal
+Tags: bootstrap
+*/
+
+body
+{
+	font-family: Glober, Roboto;
+    font-size: 18px;
+	background-color: rgb(238, 238, 238);
+}
+
+h1.product-title
+{
+	color: #46ac4e;
+	font-weight: bold;
+}
+
+i.star-filled
+{
+	color: #ffd200;
+}
+
+dl
+{
+	padding: 10px;
+	margin-left: 20px;
+}
+
+dt
+{
+	text-indent: -20px;
+}
+
+dt.checked::before
+{
+	content: "\f046";
+	font-family: FontAwesome;
+	color: #46ac4e;
+	margin-left: -6px;
+	margin-right: 6px;
+}
+
+.product-description
+{
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+.product-description td
+{
+	padding: 5px;
+	padding-right: 10px;
+}
+
+.product-description td:first-child
+{
+	font-weight: bold;
+}
+.product-description td.blue-highlight
+{
+	color: #43bbff;
+}
+
+.product-description td.green-u-highlight
+{
+	color: #79c465;
+	text-decoration: underline;
+}
+
+.external-links a
+{
+	color: #53b8bf;
+
+}
+
+.external-links a.friend::before
+{
+	content: "\f003";
+	font-family: FontAwesome;
+	font-size: 2em;
+	padding-right: 5px;
+}
+
+.external-links a.doctor::before
+{
+	content: "\f1c1";
+	font-family: FontAwesome;
+	font-size: 2em;
+	padding-right: 5px;
+}
+
+@media (max-width: 767px)
+{
+	.external-links
+	{
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.product-row
+	{
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 992px)
+{
+	.product-row
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.product-box
+{
+	box-shadow: -3px 0 15px 0 rgba(100,100,100,.75);
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	width: 340px;
+	margin: 5px;
+}
+
+.product-title
+{
+	text-align: center;
+}
+
+.product-subtitle
+{
+	color: #53b8bf;
+	text-align: center;
+}
+
+.product-perday-price
+{
+	text-align: center;
+	background-image: url("#{$image_file_path}yellow-splotch.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.product-today-price
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.product-price
+{
+	font-size: 34px;
+	text-align: center;
+}
+
+.product-retail-price
+{
+	text-align: center;
+}
+
+.strike-out
+{
+	background-image: url("#{$image_file_path}strike-out.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.product-image
+{
+	text-align: center;
+}
+
+.product-image img
+{
+	width: auto;
+	max-height: 240px;
+}
+
+.currency
+{
+	font-weight: bold;
+}
+
+.dollar-sign
+{
+	vertical-align: super;
+}
+
+.denomination
+{
+	vertical-align: super;
+	font-size: .75em;
+}
+
+.seal
+{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: -14px;
+	left: -12px;
+}
+
+.button
+{
+	display: inline-block;
+	width: 90%;
+	position: relative;
+	text-align: center;
+	color: #ffffff;
+	background-color: #46ac4e;
+	border: 1px solid #77c87d;
+	border-radius: 5px;
+	box-shadow: 0 10px 0 #3a8f41;
+	
+	padding: .5em;
+	padding-left: 2em;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+.button::after
+{
+	content: "\f04b";
+	font-family: FontAwesome;
+	float: right;
+}
+
+.discount-label
+{
+	position: absolute;
+	top: 25%;
+	right: 5px;
+	width: 80px;
+	height: 80px;
+	background-color: #e9872a;
+	border-radius: 50%;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+.discount-amount
+{
+	font-size: 1.5em;
+}
