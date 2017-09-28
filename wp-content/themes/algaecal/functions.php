@@ -13,9 +13,10 @@ function add_theme_styles_scripts()
 	// Add the main css
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
 
-	// Bootstrap js which requires JQuery
-	wp_enqueue_script( 'jquery_js', 'https://code.jquery.com/jquery-3.2.1.slim.min.js', false, '3.2.1', true);
-	wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array ( 'jquery_js' ), '3.3.7', true);	
+	// Bootstrap js which requires JQuery and we want to use jquery 3.2.1 from the google CDN
+	wp_deregister_script('jquery');
+	wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1', true);
+	wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array ( 'jquery' ), '3.3.7', true);	
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_styles_scripts' );
 ?>
