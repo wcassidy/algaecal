@@ -2,7 +2,7 @@ Notes on the AlgaeCal Plus Product Page
 
 - I created a "very" basic theme for the project which is called algaecal.
 - I didn't use the auto-generate thumbnail feature from Wistia.  There is a comment in my plugins php file about this.
-- I used the free glober (semi-bold) font as Roboto was making my eyes bleed.  If you try to view the site with you're glober font you'll have to remove the one I added as I added it as "Glober"
+- I used the free glober (semi-bold) font as Roboto was making my eyes bleed.  If you try to view the site with your glober font you'll have to remove the one I added as I added it as "Glober" in the css file I created for it
 - I avoided object-orientation in php and javascript for two reasons.  Firstly, the project was very simple and didn't really need it.  Secondly it makes the code easier to read for a project this size.  Normally I always code php in an OO manner and avoid it in javascript unless necessary (js OO is pretty hackish).
 
 Files:
