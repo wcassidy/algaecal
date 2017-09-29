@@ -6,6 +6,7 @@ function add_theme_styles_scripts()
 	// Link css for the fonts Roboto and font-awesome (don't have access to Glober)
 	wp_enqueue_style( 'roboto_css', 'https://fonts.googleapis.com/css?family=Roboto');
 	wp_enqueue_style( 'font_awesome_css', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+	wp_enqueue_style( 'globber_css', get_template_directory_uri() . '/fonts/glober/glober.css' );
 
 	// Link bootstrap css
 	wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
