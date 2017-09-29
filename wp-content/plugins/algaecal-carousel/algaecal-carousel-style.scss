@@ -1,3 +1,5 @@
+/* main css for plugin */
+
 .algaecal-carousel-preview
 {
 	display: block;
@@ -36,11 +38,13 @@
 	width: 128;
 }
 
+/* only needed for google chrome to get rid of the blue border when clicking a thumbnail */
 .slick-slide:focus 
 { 
 	outline: none; 
 }
 
+/* lightbox styling */
 .lightbox
 {
 	display: none;
