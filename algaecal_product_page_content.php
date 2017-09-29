@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div class="col-sm-6 "><img src="http://127.0.0.1/wp/wp-content/uploads/2017/09/AP-1-300x300.png" alt="AlgaeCal Plus Bottle" /></div>
+		<div class="col-sm-6 ">[algaecal_carousel name='Test']</div>
 		<div class="col-sm-6">
 			<div class="row">
 				<div class="col-12"><h1 class="product-heading">AlgaeCal Plus</h1></div>

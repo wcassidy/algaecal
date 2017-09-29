@@ -183,12 +183,12 @@ dt.checked::before
 .product-image
 {
 	text-align: center;
-}
-
-.product-image img
-{
-	width: auto;
-	max-height: 240px;
+	
+	img
+	{
+		height: auto;
+		max-width: 240px;
+	}
 }
 
 .currency
