@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div class="col-sm-6 ">[algaecal_carousel name='Test']</div>
+		<div class="col-sm-6 ">[algaecal_carousel name='AlgaeCal Plus']</div>
 		<div class="col-sm-6">
 			<div class="row">
 				<div class="col-12"><h1 class="product-heading">AlgaeCal Plus</h1></div>
