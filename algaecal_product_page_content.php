@@ -60,32 +60,32 @@
 		<div class="col-xs-12 col-md-4 product-box">
 			<div class="product-title"><h3>1 Bottle</h3></div>
 			<div class="product-perday-price">Only <span class="currency"><span class="dollar-sign">$</span>2.22</span> per Day!</div>
-			<div class="product-image"><img src="http://127.0.0.1/wp/wp-content/uploads/2017/09/AP-1-300x300.png" alt="AlgaeCal Plus Bottle" /></div>
+			<div class="product-image"><img src="http://70.68.9.41:14555/wp/wp-content/uploads/2017/09/AP-1-300x300.png" alt="AlgaeCal Plus Bottle" /></div>
 			<div class="product-price"><span class="currency"><span class="dollar-sign">$</span>50.00</span> per Bottle</div>
 			<div class="product-today-price"><strong>Today's Price: </strong><span class="dollar-sign">$</span>50 <span class="denomination">USD</span></div>
-			<div class="add-cart-button"><a href="#" class="button"><img class="seal" src="http://127.0.0.1/wp/wp-content/uploads/2017/09/seal.png" />ADD TO CART</a></div>
+			<div class="add-cart-button"><a href="#" class="button"><img class="seal" src="http://70.68.9.41:14555/wp/wp-content/uploads/2017/09/seal.png" />ADD TO CART</a></div>
 		</div>
 		<div class="col-xs-12 col-md-4 product-box">
 			<div class="discount-label"><span class="discount-amount">15%</span><br>OFF</div>
 			<div class="product-title"><h3>3 Month Supply</h3></div>
 			<div class="product-subtitle">4 Bottles</div>
 			<div class="product-perday-price">Only <span class="currency"><span class="dollar-sign">$</span>1.89</span> per Day!</div>
-			<div class="product-image"><img src="http://127.0.0.1/wp/wp-content/uploads/2017/09/AP-8-300x300.png" alt="AlgaeCal Plus 4 Bottles" /></div>
+			<div class="product-image"><img src="http://70.68.9.41:14555/wp/wp-content/uploads/2017/09/AP-8-300x300.png" alt="AlgaeCal Plus 4 Bottles" /></div>
 			<div class="product-price"><span class="currency"><span class="dollar-sign">$</span>43.00</span> per Bottle</div>
 			<div class="product-retail-price"><strong>Retail Price: </strong><span class="dollar-sign">$</span><span class="strike-out">200</span></div>
 			<div class="product-today-price"><strong>Today's Price: </strong><span class="dollar-sign">$</span>170 <span class="denomination">USD</span></div>
-			<div class="add-cart-button"><a href="#" class="button"><img class="seal" src="http://127.0.0.1/wp/wp-content/uploads/2017/09/seal.png" />ADD TO CART</a></div>
+			<div class="add-cart-button"><a href="#" class="button"><img class="seal" src="http://70.68.9.41:14555/wp/wp-content/uploads/2017/09/seal.png" />ADD TO CART</a></div>
 		</div>
 		<div class="col-xs-12 col-md-4 product-box">
 			<div class="discount-label"><span class="discount-amount">30%</span><br>OFF</div>
 			<div class="product-title"><h3>6 Month Supply</h3></div>
 			<div class="product-subtitle">8 Bottles</div>
 			<div class="product-perday-price">Only <span class="currency"><span class="dollar-sign">$</span>1.54</span> per Day!</div>
-			<div class="product-image"><img src="http://127.0.0.1/wp/wp-content/uploads/2017/09/AP-8-300x300.png" alt="AlgaeCal Plus 8 Bottles" /></div>
+			<div class="product-image"><img src="http://70.68.9.41:14555/wp/wp-content/uploads/2017/09/AP-8-300x300.png" alt="AlgaeCal Plus 8 Bottles" /></div>
 			<div class="product-price"><span class="currency"><span class="dollar-sign">$</span>35.00</span> per Bottle</div>
 			<div class="product-retail-price"><strong>Retail Price: </strong><span class="dollar-sign">$</span><span class="strike-out">400</span></div>
 			<div class="product-today-price"><strong>Today's Price: </strong><span class="dollar-sign">$</span>277 <span class="denomination">USD</span></div>
-			<div class="add-cart-button"><a href="#" class="button"><img class="seal" src="http://127.0.0.1/wp/wp-content/uploads/2017/09/seal.png" />ADD TO CART</a></div>
+			<div class="add-cart-button"><a href="#" class="button"><img class="seal" src="http://70.68.9.41:14555/wp/wp-content/uploads/2017/09/seal.png" />ADD TO CART</a></div>
 		</div>
 	</div>
 </div>
